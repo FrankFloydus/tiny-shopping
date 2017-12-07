@@ -1,33 +1,45 @@
-<div class="wrapper">
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Tiny Shopping</title>
+	</head>
+	
+		<body>
+			<div class="wrapper">
 
-	<div class="modulo">
-		
-		<div class="form">
-			
-      <!-- Sezione per l'input di inserimento -->
-			<div class="ins flex">
-				<input class="insProdotto" type="text" placeholder="Inserisci un prodotto">
-			</div>
-			
-      <!-- Sezione per i controlli di aggiunta / elimina -->
-			<div class="controlli flex">
-				<button class="aggiungi">Aggiungi</button>
-				<button class="elimina" disabled>Elimina</button>
-			</div>
-			
-      <!-- Sezione per il pulsante di visualizzazion lista -->
-			<div class="dati flex">
-				<button class="visualizzaLista">Visualizza shopping list</button>
-			</div>
-			
-      <!-- Sezione la textarea che ospiterà la lista prodotti -->
-			<div class="registro flex">
-				<textarea rows="10" class="prodottiRegistrati" readonly></textarea>
-			</div>
-			
-		</div>
-		
-		
-	</div>
+				<div class="form">
 
-</div>
+
+					<!-- Div ins (insert) -->
+					<div class="ins">
+					<input class="inserisciProdotto flexOne" type="text" placeholder="Inserisci un prodotto">
+					</div>
+
+
+					<!-- Div Controlli -->
+					<div class="controlli">
+					<button class="aggiungi flexOne">Aggiungi</button>
+					<button class="elimina flexOne">Elimina</button>
+					</div>
+
+					<!-- Div Visualizza Lista -->
+					<div class="visualizzaLista">
+					<button class="visLista flexOne">Visualizza shopping list</button>
+					</div>
+
+					<!-- Div Registro -->
+					<div class="registro">
+					<textarea rows="14" class="registroProdotti flexOne" readonly></textarea>
+					</div>
+
+
+				</div> <!-- End del div form -->
+
+			</div> <!-- End del div wrapper -->	
+
+		</body>
+</html>
